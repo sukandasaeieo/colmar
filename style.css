@@ -163,18 +163,34 @@
     margin: 34px 16px 34px 16px;   
 }
 /* section-course */
-.course{
-    display: flex;
-    background-color: #D8D8D8;
-    height: 64px;
-}
 .courseleft{
+    width: 100%;
     display: flex;
     border: 1px solid red;
+    justify-content: center;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    background-color: #D8D8D8;
 }
 .courseleft h2{
-    margin: 10px 10px 10px 10px;
+    font-size: 3rem;   
 }
+.courseright{
+    display: flex; 
+    width: 100%;
+    
+} 
+.course1-3{
+    display: flex;
 
-
-
+}
+.courseright1{
+    display: flex;
+    background-color:  #EAEBEC;
+    width: 33.3%;
+    border: 1px solid red;
+}
+.courseright1 img{
+    width: 100%;
+    height: auto;
+}
