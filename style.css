@@ -166,7 +166,6 @@
 .courseleft{
     width: 100%;
     display: flex;
-    border: 1px solid red;
     justify-content: center;
     margin-top: 34px;
     margin-bottom: 34px;
